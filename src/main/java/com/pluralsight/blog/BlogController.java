@@ -6,11 +6,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
- import java.util.List;       
+import java.util.List;       
 
 @Controller
 public class BlogController {
-    
     private PostRepository postRepository;
     
     public BlogController(PostRepository postRepository) {
@@ -23,5 +22,4 @@ public class BlogController {
         modelMap.put("posts", posts);
         return "home";
     }    
-    
 }
