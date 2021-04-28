@@ -1,9 +1,9 @@
 package com.pluralsight.blog.data;
 
 import com.pluralsight.blog.model.Post;
-import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
 import org.springframework.stereotype.Component;
 import java.util.List;
