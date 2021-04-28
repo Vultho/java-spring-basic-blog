@@ -53,4 +53,5 @@ public List<Post> getAllPosts() {
     public Post findById(Long id) {
         return null;
     }
+
 }
