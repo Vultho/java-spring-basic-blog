@@ -18,7 +18,7 @@ public class BlogController {
             
     @RequestMapping("/")
     public String listPosts(ModelMap modelMap) {
-        List<Posts> posts = postRepository.getAllPosts();
+        List<Post> posts = postRepository.getAllPosts();
         modelMap.put("posts", posts);
         return "home";
     }    
